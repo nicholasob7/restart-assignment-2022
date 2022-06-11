@@ -1,0 +1,104 @@
+{
+    "ProtectiveEquipmentModelVersion": "1.0",
+    "Persons": [
+        {
+            "BodyParts": [
+                {
+                    "Name": "FACE",
+                    "Confidence": 99.9974365234375,
+                    "EquipmentDetections": [
+                        {
+                            "BoundingBox": {
+                                "Width": 0.14317916333675385,
+                                "Height": 0.15404963493347168,
+                                "Left": 0.43585532903671265,
+                                "Top": 0.33858799934387207
+                            },
+                            "Confidence": 99.89533233642578,
+                            "Type": "FACE_COVER",
+                            "CoversBodyPart": {
+                                "Confidence": 98.52064514160156,
+                                "Value": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name": "LEFT_HAND",
+                    "Confidence": 96.88862609863281,
+                    "EquipmentDetections": [
+                        {
+                            "BoundingBox": {
+                                "Width": 0.14587293565273285,
+                                "Height": 0.12840838730335236,
+                                "Left": 0.5100482702255249,
+                                "Top": 0.5755142569541931
+                            },
+                            "Confidence": 86.95714569091797,
+                            "Type": "HAND_COVER",
+                            "CoversBodyPart": {
+                                "Confidence": 96.20736694335938,
+                                "Value": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name": "RIGHT_HAND",
+                    "Confidence": 99.85781860351562,
+                    "EquipmentDetections": [
+                        {
+                            "BoundingBox": {
+                                "Width": 0.20531673729419708,
+                                "Height": 0.20667555928230286,
+                                "Left": 0.27357620000839233,
+                                "Top": 0.6738203167915344
+                            },
+                            "Confidence": 98.20941925048828,
+                            "Type": "HAND_COVER",
+                            "CoversBodyPart": {
+                                "Confidence": 99.8388900756836,
+                                "Value": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name": "HEAD",
+                    "Confidence": 99.99998474121094,
+                    "EquipmentDetections": [
+                        {
+                            "BoundingBox": {
+                                "Width": 0.2595585584640503,
+                                "Height": 0.3282667398452759,
+                                "Left": 0.4233657121658325,
+                                "Top": 0.018913984298706055
+                            },
+                            "Confidence": 86.16336059570312,
+                            "Type": "HEAD_COVER",
+                            "CoversBodyPart": {
+                                "Confidence": 99.96597290039062,
+                                "Value": true
+                            }
+                        }
+                    ]
+                }
+            ],
+            "BoundingBox": {
+                "Width": 0.7484375238418579,
+                "Height": 0.9370836615562439,
+                "Left": 0.02291666716337204,
+                "Top": 0.0444115474820137
+            },
+            "Confidence": 99.98688507080078,
+            "Id": 0
+        }
+    ],
+    "Summary": {
+        "PersonsWithRequiredEquipment": [
+            0
+        ],
+        "PersonsWithoutRequiredEquipment": [],
+        "PersonsIndeterminate": []
+    }
+}

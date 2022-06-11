@@ -1,0 +1,15 @@
+{
+    "TargetImage": {
+        "S3Object": {
+            "Bucket": "rekognition-console-sample-images-prod-iad",
+            "Name": "target4.jpg"
+        }
+    },
+    "SourceImage": {
+        "S3Object": {
+            "Bucket": "rekognition-console-sample-images-prod-iad",
+            "Name": "source3.jpg"
+        }
+    },
+    "SimilarityThreshold": 0
+}

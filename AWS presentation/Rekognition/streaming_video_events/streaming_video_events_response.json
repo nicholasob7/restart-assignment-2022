@@ -1,0 +1,26 @@
+{
+    "eventId": "e1eb63d5-efbe-4996-99e5-d911d1a64ee5",
+    "eventNamespace": {
+        "type": "STREAM_PROCESSING_COMPLETE"
+    },
+    "inputInformation": {
+        "kinesisVideo": {
+            "processedVideoDurationMillis": 12000,
+            "streamArn": "arn:aws:kinesisvideo:us-east-1:123456789012:stream/Package-kvs/1234567890124"
+        }
+    },
+    "sessionId": "e1eb63d5-efbe-4996-99e5-d911d1a64ee5",
+    "startStreamProcessorRequest": {
+        "name": "Package",
+        "startSelector": {
+            "kvsProducerTimestamp": 1648601456294
+        },
+        "stopSelector": {
+            "maxDurationInSeconds": 12
+        }
+    },
+    "streamProcessingResults": {
+        "message": "Stream Processing Success."
+    },
+    "tags": {}
+}

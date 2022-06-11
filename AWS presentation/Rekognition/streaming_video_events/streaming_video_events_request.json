@@ -1,0 +1,11 @@
+{
+    "startStreamProcessorRequest": {
+        "name": "package",
+        "startSelector": {
+            "kvsProducerTimestamp": 1648601456294
+        },
+        "stopSelector": {
+            "maxDuration": 12
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Image": {
+        "S3Object": {
+            "Bucket": "rekognition-console-sample-images-prod-iad",
+            "Name": "family.png"
+        }
+    },
+    "Attributes": [
+        "ALL"
+    ]
+}

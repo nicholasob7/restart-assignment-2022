@@ -1,0 +1,14 @@
+{
+    "Image": {
+        "S3Object": {
+            "Bucket": "rekognition-console-sample-images-prod-iad",
+            "Name": "ppe_single_updated.jpg"
+        }
+    },
+    "SummarizationAttributes": {
+        "MinConfidence": 80,
+        "RequiredEquipmentTypes": [
+            "FACE_COVER"
+        ]
+    }
+}

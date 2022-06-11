@@ -1,0 +1,26 @@
+// Call detect Labels
+
+{
+    "Image": {
+        "Bytes": blob,
+        "S3Object": {
+            "Bucket": "string",
+            "Name": "string",
+            "Version": "string"
+        }
+    },
+    "MaxLabels": number,
+    "MinConfidence": number
+}
+
+// detect labels response
+
+{
+    "Labels": [
+        {
+            "Confidence": number,
+            "Name": "string"
+        }
+    ],
+    "OrientationCorreection": "string"
+}

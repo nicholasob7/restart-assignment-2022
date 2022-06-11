@@ -1,0 +1,20 @@
+{
+    "ClientRequestToken": "string",
+    "JobTag": "string",
+    "MinConfidence": number,
+    "NotificationChannel": {
+            "RoleArn": "string",
+            "SNSTopicArn": "string"
+},
+"Video": {
+    "S3Object": {
+            "Bucket": "string",
+            "Name": "string",
+            "Version": "string"
+        }
+    }
+}
+
+StartLabelDetection
+
+GetLabelDetection
